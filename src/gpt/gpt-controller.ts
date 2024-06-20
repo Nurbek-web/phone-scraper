@@ -1,7 +1,7 @@
 import GptService from './gpt-service';
+// a user controller is a class that handles the user routes (incoming frontend requests)
 import { Request, Response } from 'express';
 
-// a user controller is a class that handles the user routes (incoming frontend requests)
 class GptController {
   private userService: GptService;
 
